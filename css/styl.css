@@ -1,0 +1,35 @@
+* { box-sizing: border-box;}
+
+body { 
+    margin: 0;
+    padding: 0;
+    background-color: #eaeae3;
+}
+
+.game-btn {
+    width: 140px;
+    align-self: center;
+    color: #fff;
+    background-color: #639;
+}
+
+.header {
+    padding: 10px 0;
+    border-bottom: 6px solid #639;
+}
+
+.scores-and-button {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    width: 96%;
+    text-align: left;
+}
+
+#snakeBoard {
+    margin-top: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
